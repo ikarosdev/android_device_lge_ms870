@@ -8,6 +8,7 @@ bin/bridgemgrd
 bin/btnvtool
 bin/cnd
 bin/ds_fmc_appd
+bin/ftmdaemon
 bin/gsiff_daemon
 bin/hci_qcomm_init
 bin/hdmid

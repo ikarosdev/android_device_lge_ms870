@@ -30,10 +30,6 @@ PRODUCT_PACKAGES += \
     libOmxAmrEnc \
     libstagefrighthw
 
-# hostapd
-PRODUCT_PACKAGES += \
-    hostapd
-
 # USB
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
@@ -60,12 +56,12 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio_policy.msm8960 \
     audio.primary.msm8960 \
+    audio.usb.default \
     libalsa-intf \
     libaudioutils
 
 # Graphics
 PRODUCT_PACKAGES += \
-    lights.msm8960 \
     copybit.msm8960 \
     gralloc.msm8960 \
     hwcomposer.msm8960 \
